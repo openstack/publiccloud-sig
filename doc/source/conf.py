@@ -22,8 +22,8 @@ extensions = [
 ]
 
 # Feed configuration for yasfb
-feed_base_url = 'http://specs.openstack.org/openstack/publiccloud-wg'
-feed_author = 'OpenStack Public Cloud Working Group'
+feed_base_url = 'https://specs.openstack.org/openstack/publiccloud-wg'
+feed_author = 'OpenStack Public Cloud SIG'
 
 # autodoc generation is a bit aggressive and a nuisance when doing heavy
 # text edit cycles.
@@ -36,13 +36,13 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'publiccloud-wg'
+project = u'publiccloud-sig'
 copyright = u'2017, OpenStack Developers'
 
 # openstackdocstheme options
-repository_name = 'publiccloud-wg-core/publiccloud-wg'
-bug_project = 'openstack-publiccloud-wg'
-bug_tag = ''
+openstackdocs_repo_name = 'openstack/publiccloud-sig'
+openstackdocs_bug_project = 'openstack-publiccloud-wg'
+openstackdocs_bug_tag = ''
 
 # If true, '()' will be appended to :func: etc. cross-reference text.
 add_function_parentheses = True
@@ -52,7 +52,7 @@ add_function_parentheses = True
 add_module_names = True
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = 'native'
 
 # -- Options for HTML output --------------------------------------------------
 
